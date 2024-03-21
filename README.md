@@ -20,7 +20,7 @@ The data preprocessing consists of:
 - Resampling the pair of PET & CT images for each patient to a common reference space.
 - Extracting the region of interest (bounding box) of the size of 128x128x128 voxels. 
 - Saving the transformed images in NIfTI format.
-- The bounding box extraction is performed using the boundings.py file, in which the threshold and the size of the bounding box can be adjusted. Use resample.py to cut the image according to the bounding box.
+- The bounding box extraction is performed using the `boundings.py` file, in which the threshold and the size of the bounding box can be adjusted. Use `resample.py` to cut the image according to the bounding box.
 ```sh
 python boundings.py
 python resample.py
