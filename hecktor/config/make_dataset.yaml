@@ -1,0 +1,5 @@
+path_to_input: 'F:/petctseg/HeadandNeck/nii/'  # directory with images
+path_to_bb: 'F:/petctseg/HeadandNeck/bounding_boxes.csv'  # file with bounding box coordinates
+path_to_output: 'F:/petctseg/HeadandNeck/resample/'  # directory to save resampled images
+is_mask_available: true  # if `true`, masks will be preprocessed. Use `false`, if masks are unavailable
+verbose: true  # if `true`, the progress bar will be shown
