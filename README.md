@@ -1,4 +1,4 @@
-# TASE-UNet: A dual-branch encoder network based on SE-UNet and Transformer for 3D PET-CT images tumor segmentation
+# A Dual-Branch Encoder Network based on Squeeze-and-Excitation UNet and Transformer for 3D PET-CT Image Tumor Segmentation
 
 
 > Thank iantsen for sharing the code. The structure of this code is similar to that of iantsen. 
